@@ -4,6 +4,7 @@ import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 import HeadMetadata from "../components/headMetadata.js"
 import getThreeNewestPosts from "../api/getThreeNewestPosts.js"
+import GoogleAnalytics from "../components/googleAnalytics.js"
 
 export default class extends Component {
   static async getInitialProps () {
@@ -21,6 +22,7 @@ export default class extends Component {
           title="value creation lab"
           metaDescription="I'm an engineer, software developer and data scientist"
         />
+        <GoogleAnalytics />
         <Header />
         <div className="homepage-container">
           <div className="homepage-introduction">

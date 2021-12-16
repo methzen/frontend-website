@@ -5,6 +5,7 @@ import Header from "../../components/header.js"
 import Footer from "../../components/footer.js"
 import HeadMetadata from "../../components/headMetadata.js"
 import getAllBlogPosts from "../../api/getAllBlogPosts.js"
+import GoogleAnalytics from "../components/googleAnalytics.js"
 
 export default class extends Component {
   static async getInitialProps () {
@@ -22,6 +23,7 @@ export default class extends Component {
           title="Blog Posts | Coding Blog"
           metaDescription="List of all blog posts published on the Nick Major coding blog."
         />
+        <GoogleAnalytics />
         <Header />
         <div className="blog-posts-container">
           <h1>Blog posts</h1>
