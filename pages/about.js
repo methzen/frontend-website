@@ -10,7 +10,7 @@ export default class extends Component {
     return (
       <div className="layout-wrapper">
           <HeadMetadata
-          title="About Me | value creation lab"
+          title="About Me | Mouhamadou"
           metaDescription="Engineer, sofware developer, data scientist"
             />
             <GoogleAnalytics />
@@ -18,10 +18,12 @@ export default class extends Component {
         <div className="about-container">
           <div className="about-section">
             <h1>About Me</h1>
-            <p>I’m Nick major, a full stack software developer and technical writer.</p>
-            <p>I started this website as a place to document everything I learned while going through a career change. I learn in public and write about everything I know.</p>
+            <p>Mouhamadou Dia, engineer and PhD in applied mathematics.</p>
+            <p>Since 2015, I have been helping technological companies implement numerical methods and strategies that help them make better decisions and solve complexe and challenging industrial problems.</p>
+            <p>I started this website as a place to document everything I learned.</p>
           </div>
-          <div className="about-section">
+
+            {/*<div className="about-section">
             <h2>My Projects</h2>
             <ul>
               <li><a href="https://github.com/discourse/discourse">Discourse</a> – A platform for community discussion. Free, open, simple.</li>
@@ -40,6 +42,7 @@ export default class extends Component {
               <li><strong>Syntax Highlighting</strong>: <a href="https://prismjs.com">PrismJS</a></li>
             </ul>
           </div>
+*/}
         </div>
         <Footer />
       </div>
