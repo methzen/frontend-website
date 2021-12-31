@@ -66,7 +66,7 @@
     height: 55px;
     width: auto;
   }
-  
+ 
   .homepage-latest-blog-post-title {
     display: inline-block;
     vertical-align: middle;
@@ -197,7 +197,15 @@
     .homepage-latest-thumbnail img {
       height: 40px;
     }
+ 
+    .companies-logo {
+      width: 8%;
+    }
   
+    .companies-logo img {
+      height: 40px;
+    }
+
     .homepage-latest-blog-post-title {
       width: 92%;
     }

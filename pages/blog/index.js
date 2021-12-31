@@ -20,8 +20,8 @@ export default class extends Component {
     return (
       <div className="layout-wrapper">
         <HeadMetadata
-          title="Blog Posts | Coding Blog"
-          metaDescription="List of all blog posts published on the Nick Major coding blog."
+          title="Blog Posts "
+          metaDescription="List of all blog posts published on the Mouhamadou Dia blog."
         />
         <GoogleAnalytics />
         <Header />

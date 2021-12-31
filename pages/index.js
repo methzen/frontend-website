@@ -19,7 +19,7 @@ export default class extends Component {
     return (
       <div className="layout-wrapper">
         <HeadMetadata
-          title="value creation lab"
+          title="Mouhamadou Dia"
           metaDescription="I'm an engineer, software developer and data scientist"
         />
         <GoogleAnalytics />
@@ -27,7 +27,9 @@ export default class extends Component {
         <div className="homepage-container">
           <div className="homepage-introduction">
             <h1>Hi, I'm Mouhamadou Dia. I help people solve problems and create value.</h1>
-            <p>I'm an engineer, software developer and data scientist</p>
+            <p>Since 2015, I have been helping technological companies implement numerical methods and 
+              strategies that help them make better decisions and solve complexe and challenging industrial problems.
+              I have worked with companies like General Electric, Alstom, EDF, Edvance, Framatome...</p>
           </div>
           <div className="homepage-latest-blog-posts">
             <h2>
@@ -56,42 +58,42 @@ export default class extends Component {
             </div>
           </div>
           <div className="homepage-projects">
-            <h2>My Projects</h2>
+            <h2>Lastest Presentations</h2>
             <div className="homepage-projects-list">
               <div className="homepage-project">
                 <h3>
                   <a href="https://github.com/discourse/discourse">
-                    <div className="homepage-project-icon">📞</div>
-                    <div className="homepage-project-title">Discourse</div>
+                    <div className="homepage-project-icon">🇺🇸</div>
+                    <div className="homepage-project-title">New York</div>
                   </a>
                 </h3>
-                <p>A platform for community discussion. Free, open, simple.</p>
+                <p>World Congress of Computational Mechanics (WCCM).</p>
                 <div className="homepage-project-btns">
-                  <a className="homepage-project-view-btn" href="https://github.com/discourse/discourse">View</a>
+                  <a className="homepage-project-view-btn" href="http://www.wccm2018.org/">View</a>
                 </div>
               </div>
               <div className="homepage-project">
                 <h3>
                   <a href="https://github.com/nmajor25/seconds-converter">
-                    <div className="homepage-project-icon">⌛</div>
-                    <div className="homepage-project-title">Seconds Converter</div>
+                    <div className="homepage-project-icon">🇫🇷</div>
+                    <div className="homepage-project-title">Giens </div>
                   </a>
                 </h3>
-                <p>Convert milliseconds or seconds to days, hours, minutes, and seconds in node.js.</p>
+                <p>Colloque National en Calcul des Structures (CSMA).</p>
                 <div className="homepage-project-btns">
-                  <a className="homepage-project-view-btn" href="https://github.com/nmajor25/seconds-converter">View</a>
+                  <a className="homepage-project-view-btn" href="https://csma.asso.univ-lorraine.fr/congres-de-giens/">View</a>
                 </div>
               </div>
               <div className="homepage-project">
                 <h3>
                   <a href="https://github.com/showdownjs/showdown">
-                    <div className="homepage-project-icon">⌛</div>
-                    <div className="homepage-project-title">Showdown</div>
+                    <div className="homepage-project-icon">🇪🇸</div>
+                    <div className="homepage-project-title">Barcelone</div>
                   </a>
                 </h3>
-                <p>A bidirectional Markdown to HTML to Markdown converter written in Javascript.</p>
+                <p>International Conference on Computational Plasticity (COMPLAS).</p>
                 <div className="homepage-project-btns">
-                  <a className="homepage-project-view-btn" href="https://github.com/showdownjs/showdown">View</a>
+                  <a className="homepage-project-view-btn" href="https://upcommons.upc.edu/handle/2117/181163">View</a>
                 </div>
               </div>
             </div>

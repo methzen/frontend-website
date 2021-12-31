@@ -28,7 +28,7 @@ export default class extends Component {
         return (
             <div className="layout-wrapper">
               <HeadMetadata
-                title={this.props.post ? this.props.post.seoTitleTag : "Blog Post | Coding Blog"}
+                title={this.props.post ? this.props.post.seoTitleTag : "Blog Post"}
                 metaDescription={this.props.post && this.props.post.seoMetaDescription}
                 />
                 <GoogleAnalytics />

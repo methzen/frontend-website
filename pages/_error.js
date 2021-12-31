@@ -18,7 +18,7 @@ export default class extends Component {
     return (
       <div className="layout-wrapper">
           <HeadMetadata
-          title="Error | value creation lab"
+          title="Error "
             />
            <GoogleAnalytics />
         <Header />

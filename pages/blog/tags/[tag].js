@@ -21,7 +21,7 @@ export default class extends Component {
         return (
             <div className="layout-wrapper">
                 <HeadMetadata
-                    title={`Blog posts tagged as "${this.props.tag}" | Coding Blog`}
+                    title={`Blog posts tagged as "${this.props.tag}"`}
                     metaDescription={`All blog posts tagged as "${this.props.tag}".`}
                 />
                 <GoogleAnalytics />
