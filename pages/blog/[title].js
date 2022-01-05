@@ -34,6 +34,7 @@ export default class extends Component {
                 <GoogleAnalytics />
               <Header />
               <div className="blog-post-container">
+                {/*
                 <div className="blog-post-top-section">
                   <h1>Your Blog Post Title</h1>
                   <div className="blog-post-top-meta">
@@ -46,6 +47,7 @@ export default class extends Component {
                     </a>
                   </div>
                 </div>
+                */}
                 <div className="blog-post-body-content">
                 {
                    this.props.post && !this.props.getDataError && !this.props.notFoundError ?

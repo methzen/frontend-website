@@ -26,7 +26,8 @@ export default class extends Component {
         <Header />
         <div className="homepage-container">
           <div className="homepage-introduction">
-            <h1>Hi, I'm Mouhamadou Dia. I help people solve problems and create value.</h1>
+            <h1>Hi, I'm Mouhamadou Dia. </h1>
+            <h5>I help people solve problems and create value.</h5>
             <p>Since 2015, I have been helping technology companies implement numerical methods and 
               strategies that help them make better decisions and solve complexe and challenging industrial problems.
               I have worked with companies like General Electric, Alstom, EDF, Edvance, Framatome...</p>
