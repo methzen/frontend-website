@@ -4,6 +4,7 @@ import moment from "moment"
 
 import "prismjs/plugins/line-numbers/prism-line-numbers.js"
 import "prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js"
+import "prismjs/components/prism-python.min.js"
 
 import Header from "../../components/header.js"
 import Footer from "../../components/footer.js"
