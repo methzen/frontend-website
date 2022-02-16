@@ -25,6 +25,8 @@ export default class extends Component {
         <GoogleAnalytics />
         <Header />
         <div className="homepage-container">
+
+          
           <div className="homepage-introduction">
             <h1>Hi, I'm Mouhamadou Dia. </h1>
             <h3>I help people solve problems and create value.</h3>
@@ -32,6 +34,9 @@ export default class extends Component {
               strategies that help them make better decisions and solve complexe and challenging industrial problems.
               I have worked with companies like General Electric, Alstom, EDF, Edvance, Framatome...</p>
           </div>
+
+
+
           <div className="homepage-latest-blog-posts">
             <h2>
               Latest Blog Posts
@@ -63,7 +68,7 @@ export default class extends Component {
             <div className="homepage-projects-list">
               <div className="homepage-project">
                 <h3>
-                  <a href="https://github.com/discourse/discourse">
+                  <a href="http://www.wccm2018.org/">
                     <div className="homepage-project-icon">🇺🇸</div>
                     <div className="homepage-project-title">New York</div>
                   </a>
@@ -75,7 +80,7 @@ export default class extends Component {
               </div>
               <div className="homepage-project">
                 <h3>
-                  <a href="https://github.com/nmajor25/seconds-converter">
+                  <a href="https://csma.asso.univ-lorraine.fr/congres-de-giens/">
                     <div className="homepage-project-icon">🇫🇷</div>
                     <div className="homepage-project-title">Giens </div>
                   </a>
@@ -87,7 +92,7 @@ export default class extends Component {
               </div>
               <div className="homepage-project">
                 <h3>
-                  <a href="https://github.com/showdownjs/showdown">
+                  <a href="https://upcommons.upc.edu/handle/2117/181163">
                     <div className="homepage-project-icon">🇪🇸</div>
                     <div className="homepage-project-title">Barcelone</div>
                   </a>
