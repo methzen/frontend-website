@@ -29,7 +29,7 @@ export default class extends Component {
           
           <div className="homepage-introduction">
             <h1>Hi, I'm Mouhamadou Dia. </h1>
-            <h3>I help people solve problems and create value.</h3>
+            <h3>I'm an engineer, software developer and data scientist.</h3>
             <p>Since 2015, I have been helping technology companies implement numerical methods and 
               strategies that help them make better decisions and solve complexe and challenging industrial problems.
               I have worked with companies like General Electric, Alstom, EDF, Edvance, Framatome...</p>
