@@ -43,6 +43,18 @@ export default class extends Component {
             </ul>
           </div>
 */}
+      <div className="about-section">
+           <h2>The tools used to run this website </h2>
+           <ul>
+             <li><strong>Webiste</strong>: <a href="https://nextjs.org/">Next.js</a></li>
+             <li><strong>Backend</strong>: <a href="https://nodejs.org/">Node.js</a></li>
+             <li><strong>Database</strong>: <a href="https://www.mongodb.com/">MongoDB</a></li>
+             <li><strong>Hosting </strong>: <a href="https://www.digitalocean.com/">DigitalOcean</a></li>
+             <li><strong>Syntax Highlighting</strong>: <a href="https://prismjs.com">PrismJS</a></li>
+             <li><strong>Public repositories</strong>: <a href="https://github.com/methzen">Github</a></li>
+           </ul>
+         </div>
+
         </div>
         <Footer />
       </div>
